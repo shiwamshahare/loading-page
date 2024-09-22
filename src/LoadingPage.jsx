@@ -8,7 +8,7 @@ const LoadingPage = () => {
       <motion.div
         initial={{ x: 0 }}
         animate={{ x: "-100%" }}
-        transition={{ delay: 9, duration: 1, ease: "easeOut" }}
+        transition={{ delay: 8, duration: 1, ease: "easeOut" }}
         className="preloader bg-black text-white h-screen w-full flex items-center justify-center relative"
       >
         Welcome to the experience

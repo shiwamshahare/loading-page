@@ -10,7 +10,7 @@ const App = () => {
       setTimeout(() => {
         setIsLoading(false);
         document.getElementById("preloader").style.display = "none";
-      }, 10000);
+      }, 9000);
     };
     handleLoading();
   }, []);
