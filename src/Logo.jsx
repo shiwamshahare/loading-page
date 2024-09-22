@@ -118,19 +118,19 @@ const Logo = () => {
         />
       </g>
 
-      <g clipPath="url(#054bf79f0d)" id="leftbottom-corner-second-line">
+      <g clipPath="url(#054bf79f0d)" id="lefbottom-corner-second-line">
         <motion.path
-          d="M 92.083594 209.804688 L 90.449219 209.804688 L 90.449219 100.100781"
-          fill="none" // Use "none" if you only want stroke to animate
-          stroke="#000000" // Define the stroke color
-          strokeWidth="3" // Adjust the stroke width
+          d="M 90.183594 209.804688 L 90.449219 209.804688 L 90.449219 101.300781"
+          fill="none"
+          stroke="#000000"
+          strokeWidth="3"
           variants={pathVariants}
         />
       </g>
 
-      <g clipPath="url(#407201ef86)" id="leftbottom-corner-second-line">
+      <g clipPath="url(#407201ef86)" id="lefttop-corner-second-line">
         <motion.path
-          d="M 92.083594 209.804688 L 90.449219 209.804688 L 90.449219 101.300781"
+          d="M 182.101562 120.882812 L 73.601562 120.882812 L 73.601562 121.344"
           fill="none" // Use "none" if you only want stroke to animate
           stroke="#000000" // Define the stroke color
           strokeWidth="3" // Adjust the stroke width
