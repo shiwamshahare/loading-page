@@ -5,9 +5,14 @@ import Logo from "./Logo";
 const LoadingPage = () => {
   return (
     <>
-      <div className="bg-black text-white h-screen w-full flex items-center justify-center relative">
+      <motion.div
+        initial={{ x: 0 }}
+        animate={{ x: "-100%" }}
+        transition={{ delay: 9, duration: 1, ease: "easeOut" }}
+        className="preloader bg-black text-white h-screen w-full flex items-center justify-center relative"
+      >
         Welcome to the experience
-      </div>
+      </motion.div>
       <motion.div
         initial={{ opacity: 1 }}
         animate={{ opacity: 0 }}
